@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <div className="App" data-theme={darkMode ? 'dark' : 'light'}>
+    <div className="App">
       {<Resturant /> }
       <button onClick={toggleDarkMode}>
         {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
