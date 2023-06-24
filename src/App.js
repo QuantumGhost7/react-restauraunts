@@ -1,4 +1,3 @@
-import React from "react";
 import Resturant from "./component/basics/Resturant";
 import React, { useContext } from 'react';
 import { ThemeContext } from './ThemeContext';
